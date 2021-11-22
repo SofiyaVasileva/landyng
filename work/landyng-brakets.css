@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+    background-color: #f6c9fd;
+      
+    
+}
+.main{
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+    
+    
+}
+
+.button{
+    cursor: pointer;
+    border: #c146d3 5px solid;
+    width: 200px;
+    height: 60px;
+    
+}
+
+.questions{
+    margin: 10px;
+    
+    
+}
