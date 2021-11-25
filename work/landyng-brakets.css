@@ -21,7 +21,11 @@
 }
 
 .questions{
-    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    text-align: center;
+    width: 370px;
     
     
 }
