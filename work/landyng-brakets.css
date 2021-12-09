@@ -4,9 +4,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    margin: 5px;
+    margin: 20px;
     padding: 2px;
-    height: 550px;
+    height: 600px;
     align-content: space-between;
     box-shadow: 0px 20px 50px #139d8c, 0px 10px 40px #e400ff;
     background: url("pattern.png");
@@ -27,5 +27,19 @@
     text-align: center;
     width: 370px;
     
+    
+}
+.big{
+    
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.accord{
+    margin: 25px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 20px 50px #139d8c, 0px 10px 40px #e400ff
     
 }
