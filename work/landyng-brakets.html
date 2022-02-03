@@ -74,13 +74,14 @@
       </div>
     </div>
   </div>
+             
 </div>
         </div>
         <div class="container main">
             <div class="container first">
                 <div class="container">
                     <h1>Практическая стрельба - это спорт для всей семьи</h1>
-                    <h3>Занятие стрельбой закляет дух и тело, помогает развивать скорость реакции</h3>
+                    <h3>Занятие стрельбой закляет дух и тело, помогает развивать интеллект и здоровье</h3>
                 </div>
             
                 <div class="container">
@@ -108,19 +109,40 @@
                     </div>           
             </nav>
             </div>
-            <div>
-            <form action="mailto:genryavi@gmail.com">
-                <p>Отправьте свой Email для получения рассылки с новейшей информацией!</p>
-                <p>Ваш Email: <input type="email" name="email"></p>
-                <p><input type="submit" value="Отправить"></p>
-                <p>Ваш комментарий!<Br><textarea name="comment" cols="40" rows="3"></textarea></p>
-                <p><input type="submit" value="Отправить">
-                <input type="reset" value="Очистить"></p>
-            </form>
+            <div class="container">
+              <div class="row">
+                  <div class="container">
+                    <form action="mail.php" method="post">
+                      <div class="form-group">
+                          <label for="">Введите ваше имя:</label>
+                          <input type="text" class="form-control" id="" name="user-name" placeholder="Например, Иван">
+                      </div>
+
+                      <div class="form-group">
+                          <label for="">Отправьте свой Email для получения рассылки с новейшей информацией</label>
+                          <input type="text" class="form-control" id="" name="user-phone" placeholder="me@gmail.com">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="">Ваш комментарий!</label>
+                        <input type="text" class="form-control" id="" name="user-comment" placeholder="Очень интересно! Спасибо!">
+                    </div>
+
+                      <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                  </div>
+                </div>
+            </div>
             </div>
         </div>
         <div>
         
         </div>
      </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+
     </body>
