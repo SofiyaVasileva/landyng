@@ -45,3 +45,26 @@
 body{
      background: url("pattern2.jpg");
 }
+.comments{
+    display: flexbox;
+    margin: 200px auto 10px;
+    background-image: url("pattern.png");
+    border:  5px dotted slateblue;
+    height: 380px;
+    align-content:space-between;
+}
+.name{
+    background-color: rgba(69, 158, 231, 0.397);
+    width: 200px;
+    margin-left: 10%;
+}
+.name-2{
+    background-color: rgba(163, 4, 236, 0.397);
+    width: 200px;
+    justify-content:flex-end;
+    margin-left: 70%;
+}
+
+.oval{
+    border-radius: 50px;
+}
